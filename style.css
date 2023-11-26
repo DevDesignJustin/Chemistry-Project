@@ -1,0 +1,328 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.left {
+    overflow: none;
+    width: 50vw;
+    height: 100vh;
+}
+
+.left div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    /* margin-bottom: 7px; */
+}
+
+.left img {
+    display: block;
+    height: 105vh;
+}
+
+.right {
+    overflow: none;
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(244, 249, 255);
+    box-sizing: content-box;
+}
+
+.rights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50vw;
+    padding: 0px;
+    background-color: rgb(255, 244, 244);
+}
+
+.rights h1 {
+    font-weight: 400;
+    font-size: 44px;
+    margin-bottom: 8px;
+}
+
+.rights p {
+    font-size: 17.5px;
+}
+.rights p span {
+    font-weight: 800;
+}
+
+.righted {
+    width: 80%;
+    height: 50%;
+}
+
+.line {
+    width: 36px;
+    height: 3px;
+    margin-bottom: 8px;
+    background-color: #000000;
+}
+.pills {
+    display: flex;
+}
+.pills div {
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-weight: 800;
+    margin-right: 18px;
+    margin-top: 18px;
+}
+.red-pill {
+    color: #F83C3C;
+    background-color: #FFD7D7;
+}
+.purple-pill {
+    color: #9131F1;
+    background-color: #F0E1FF;
+}
+.aqua-pill {
+    color: #32F4F4;
+    background-color: #DFFFFF;
+}
+.yellow-pill {
+    color: #FFEB84;
+    background-color: #FFFBE4;
+}
+
+.nav {
+    position: fixed;
+}
+
+.navigation {
+    position: relative;
+}
+
+.navigation div {
+    background-color: #F83C3C;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 10px;
+    transition: 0.3s transform ease-in-out;
+}
+
+.navigation div:hover {
+    transform: scale(1.1);
+}
+
+#up {
+    background-color: #32F4F4;
+}
+
+.navigation div i {
+    color: #fff;
+}
+
+.red {
+    color: #F83C3C;
+}
+
+.aqua {
+    color: #32F4F4;
+}
+
+.purple {
+    color: #9131F1;
+}
+
+.yellow {
+    color: #FFEB84;
+}
+.learn {
+    margin-top: 22px;
+    padding: 12px 20px;
+    background-color: #FFFBE4;
+    color: #FFEB84;
+    font-weight: 800;
+    border-radius: 6px;
+    width: fit-content;
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+},
+.learn:hover {p
+    transform: scale(1.2);
+}.go-down {
+    animation: slidedown 0.7s forwards;
+}
+.go-down2 {
+    animation: slidedown2 0.7s forwards;
+}
+.go-down3 {
+    animation: slidedown3 0.7s forwards;
+}
+.go-down4 {
+    animation: slidedown4 0.7s forwards;
+}
+.go-down5 {
+    animation: slidedown5 0.7s forwards;
+}
+.go-down6 {
+    animation: slidedown6 0.7s forwards;
+}
+@keyframes slidedown {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100vh);
+    }
+}
+@keyframes slidedown2 {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-200vh);
+    }
+}
+@keyframes slidedown3 {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-300vh);
+    }
+}
+@keyframes slidedown4 {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-400vh);
+    }
+}
+@keyframes slidedown5 {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-500vh);
+    }
+}
+@keyframes slidedown6 {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-600vh);
+    }
+}
+.go-up {
+    animation: slideup 0.7s forwards;
+}
+.go-up2 {
+    animation: slideup2 0.7s forwards;
+}
+
+.go-up3 {
+    animation: slideup3 0.7s forwards;
+}
+
+.go-up4 {
+    animation: slideup4 0.7s forwards;
+}
+
+.go-up5 {
+    animation: slideup5 0.7s forwards;
+}
+.go-up6 {
+    animation: slideup6 0.7s forwards;
+}
+
+@keyframes slideup {
+    from {
+        transform: translateY(-100vh);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+@keyframes slideup2 {
+    from {
+        transform: translateY(-200vh);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideup3 {
+    from {
+        transform: translateY(-300vh);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes slideup3 {
+    from {
+        transform: translateY(-300vh);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes slideup4 {
+    from {
+        transform: translateY(-400vh);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideup5 {
+    from {
+        transform: translateY(-500vh);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideup6 {
+    from {
+        transform: translateY(-600vh);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
